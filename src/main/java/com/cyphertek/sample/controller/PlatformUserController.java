@@ -27,4 +27,9 @@ public class PlatformUserController {
         }
         return ResponseEntity.badRequest().build();
     }
+
+    @PutMapping("")
+    public ResponseEntity<PlatformUserEntity> updateUser() {
+        return ResponseEntity.ok().build();
+    }
 }
