@@ -1,0 +1,30 @@
+# Default ignored files
+/build/
+/bin/
+/target/
+/logs/
+/data/
+
+# OS Files #
+.DS_Store
+
+# Package Files #
+*.jar
+
+# Windows #
+Thumbs.db
+Desktop.ini
+
+# Eclipse #
+.project
+.metadata
+bin/**
+tmp/**
+*,tmp
+*.bak
+*.swp
+.classpath
+.settings/
+
+# IntelliJ #
+.idea/
